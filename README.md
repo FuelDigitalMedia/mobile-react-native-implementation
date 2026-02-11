@@ -1,10 +1,7 @@
 # React Native Implementation
 
----
-
 ## Required dependencies for mobile
 
-***
 
 | | |
 |---|---|
@@ -194,7 +191,6 @@ key with additional network ID dictionary entries in your app's Info.plist.
 
 ## Show banner ads
 
----
 Banner ads are the most commonly used ad format in mobile apps. Banner ads usually appear as a short strip spanning the app page or screen, positioned above or below the app content. Banners typically stay on screen and visible as the user interacts with app content.
 
 Banner ads can deliver:
@@ -274,7 +270,7 @@ import {
 // Replace these placeholders with values from your PubMatic account.
 // If you are doing initial testing, you can use PubMatic test IDs.
 //
-// For test IDs see - https://help.pubmatic.com/openwrap/docs/test-and-debug-your-integration-6
+// For test id check the test section 
 // CAUTION: BE SURE TO REPLACE ANY TEST VALUES WITH THE ACTUAL PRODUCTION IDS
 // FOR YOUR ACCOUNT BEFORE GOING LIVE
 //------------------------------------------------------------------------------
@@ -447,8 +443,6 @@ export default App;
 ```
 
 ## Test and debug your integration
-
----
 
 Before releasing your ad-enabled app into the world,
 you must first test that your SDK integration is working correctly,
